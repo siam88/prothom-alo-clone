@@ -2,7 +2,7 @@ import React from 'react'
 
 const Paragraph = (props) => {
   return (
-    <p>{props.children}</p>
+    <p className='paragraph'> {props.children}</p>
   )
 }
 

@@ -18,5 +18,6 @@ a {
   flex-direction: column;
 }
 
-@import "color";
+@import "root";
 @import "navigation";
+@import "atom";
