@@ -3,7 +3,6 @@ import React from "react";
 const Regular = () => {
   return (
     <div className="regularAdd">
-
       <ul>
         <li>
           <div className="listItem">
@@ -27,7 +26,6 @@ const Regular = () => {
               alt=""
             />
           </div>
-          <p className="regularAddSubTitle">৫ ঘণ্টা আগে</p>
         </li>
         <li>
           <div className="listItem">
@@ -39,7 +37,6 @@ const Regular = () => {
               alt=""
             />
           </div>
-          <p className="regularAddSubTitle">৫ ঘণ্টা আগে</p>
         </li>
       </ul>
     </div>

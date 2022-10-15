@@ -7,7 +7,7 @@ const PriorityNews = () => {
     <div className="homeSection1_2">
       <div class="flex-container">
         <div className="impImage">
-          {console.log({data})}
+        
           <Highlighted content={data.selected}/>
         </div>
         <div className="listitems">
