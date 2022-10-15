@@ -1,0 +1,26 @@
+.details_header{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    .icon{
+        height: 100px;
+        padding: 1%;
+    }
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .details_header{
+        .icon{
+            height: 50px;
+            padding: 1%;
+        }
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .details_header{
+        .icon{
+            height: 40px;
+            padding: 1%;
+        }
+    }
+}
