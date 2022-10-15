@@ -28,13 +28,10 @@ const Home = () => {
         </div> */}
       <div className="homeSection1">
         <div class="grid-container">
-          <div className="left">
-            {" "}
-            <Tab content={data} />
-          </div>
-          <div className="middle">
-            <PriorityNews />
-          </div>
+          <div className="left"> <Tab content={data}/></div>
+          <div className="middle">PriorityNews</div>
+          <div className="right">3</div>
+        
         </div>
       </div>
     </DefaultLayout>

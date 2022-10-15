@@ -24,7 +24,7 @@
     .flex-container {
         display: flex;
         flex-wrap: wrap;
-
+        
 
         .impImage {
             background-color: #f1f1f1;
@@ -44,19 +44,16 @@
             font-size: 30px;
         }
     }
-
-    .imgLft {
-        padding: 3% 2% 2% 0%;
+    .imgLft{
+        padding:3% 2% 2% 0% ;
         border-right: 1px solid var(--border-color);
     }
-
-    .imgRgt {
-        padding: 3% 0% 2% 2%;
+    .imgRgt{
+        padding:3% 0% 2% 2% ;
     }
-
     .smallImage {
         width: 50%;
-
+        
         position: relative;
         display: "flex";
         float: left;
@@ -65,21 +62,18 @@
             min-width: 100%;
             min-height: 100%;
             object-fit: cover;
-            width: inherit;
         }
-
-        p {
+        p{
             font-size: var(--fs-14_5);
         }
     }
 
     .highlighted {
-        .highlightedTitle {
+        .highlightedTitle{
             font-size: var(--fs-47);
-            margin: var(--space0_9) 0;
+            margin:var(--space0_9) 0 ;
         }
-
-        .highlightedTitle:before {
+         .highlightedTitle:before {
             content: "";
             width: 20px;
             height: 20px;
@@ -90,7 +84,6 @@
             top: var(--space0_4);
             margin-right: var(--space1_0);
         }
-
         .topHighlighted {
             width: 100%;
             position: relative;
@@ -177,12 +170,11 @@
         }
 
         .highlighted {
-            .highlightedTitle {
+            .highlightedTitle{
                 font-size: var(--fs-47);
-                margin: var(--space0_9) 0;
+                margin:var(--space0_9) 0 ;
             }
-
-            .highlightedTitle:before {
+             .highlightedTitle:before {
                 content: "";
                 width: 20px;
                 height: 20px;
@@ -193,19 +185,18 @@
                 top: var(--space0_4);
                 margin-right: var(--space1_0);
             }
-
             .topHighlighted {
                 width: 100%;
                 position: relative;
                 display: "flex";
-
+    
                 img {
                     min-width: 100%;
                     min-height: 100%;
                     object-fit: cover;
                     width: -webkit-fill-available;
                 }
-
+    
                 .first-txt {
                     z-index: 999;
                     color: #f1f1f1;
@@ -213,39 +204,24 @@
                     bottom: 8%;
                     left: 20px;
                     text-align: left;
-
+    
                 }
             }
-            .smallImage {
-                width: 50%;
-        
-                position: relative;
-                display: "flex";
-                float: left;
-        
-                img {
-                    min-width: 100%;
-                    min-height: 100%;
-                    object-fit: cover;
-                    width: inherit;
-                }
-        
-                p {
-                    font-size: var(--fs-14_5);
-                }
-            }
+    
             .highlighted1 {
                 width: 50%;
                 float: left;
-
-              
+              img{
+                width: -webkit-fill-available;
+              }
             }
-
+    
             .highlighted2 {
                 width: 50%;
                 float: left;
-
-              
+                img{
+                    width: -webkit-fill-available;
+                  }
             }
         }
     }

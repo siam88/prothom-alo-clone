@@ -65,7 +65,6 @@
             min-width: 100%;
             min-height: 100%;
             object-fit: cover;
-            width: inherit;
         }
 
         p {
@@ -216,36 +215,24 @@
 
                 }
             }
-            .smallImage {
-                width: 50%;
-        
-                position: relative;
-                display: "flex";
-                float: left;
-        
-                img {
-                    min-width: 100%;
-                    min-height: 100%;
-                    object-fit: cover;
-                    width: inherit;
-                }
-        
-                p {
-                    font-size: var(--fs-14_5);
-                }
-            }
+
             .highlighted1 {
                 width: 50%;
                 float: left;
 
-              
+                img {
+                    height: 100%;
+                    width: inherit;
+                }
             }
 
             .highlighted2 {
                 width: 50%;
                 float: left;
 
-              
+                img {
+                    width: -webkit-fill-available;
+                }
             }
         }
     }

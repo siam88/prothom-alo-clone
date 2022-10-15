@@ -1,7 +1,6 @@
 import React from "react";
 import DefaultLayout from "../../layout/default";
 import Tab from "../../components/organisms/home/tab";
-import PriorityNews from "../../components/organisms/home/priorityNews";
 import data from "../../data/sample-data1.json";
 const Home = () => {
   return (
@@ -28,13 +27,10 @@ const Home = () => {
         </div> */}
       <div className="homeSection1">
         <div class="grid-container">
-          <div className="left">
-            {" "}
-            <Tab content={data} />
-          </div>
-          <div className="middle">
-            <PriorityNews />
-          </div>
+          <div className="left"> <Tab content={data}/></div>
+          <div className="middle">2</div>
+          <div className="right">3</div>
+        
         </div>
       </div>
     </DefaultLayout>
