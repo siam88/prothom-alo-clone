@@ -4,7 +4,7 @@ import Paragraph from "../../atoms/typography/paragraph";
 const Details = () => {
   return (
     <div className="story-details">
-      <div className="story-title">
+      <div>
       <DetailsPageTitle />
       </div>
       <div className="story-image">

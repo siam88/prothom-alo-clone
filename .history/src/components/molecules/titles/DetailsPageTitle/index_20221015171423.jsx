@@ -7,7 +7,7 @@ const DetailsPageTitle = () => {
   return (
     <div className="HeadlineComp">
       <Subtitle>i am subtitle</Subtitle>
-      <Title>space2_6space2_6space2_space2_6space2_6space2_6space2_6space2_66space2_6space2_6</Title>
+      <Title>space2_6space2_6space2_6space2_6space2_6</Title>
     </div>
   );
 };

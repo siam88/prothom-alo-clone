@@ -11,8 +11,7 @@
     justify-content: center;
 
     .story-title {
-        width: 991px;
-
+        width: 100768px;
     }
 
     .story-description {
@@ -66,15 +65,10 @@
     }
 }
 
-@media only screen and (min-device-width: 767px) and (max-device-width: 1025px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .story-details {
         position: initial;
         margin-left: 0;
 
-        .story-title {
-            width: 100%;
-
-        }
     }
-
 }

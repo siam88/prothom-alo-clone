@@ -9,12 +9,9 @@
     position: absolute;
     margin-left: 10%;
     justify-content: center;
-
-    .story-title {
-        width: 991px;
-
-    }
-
+.story-title{
+    width: "fit-content";
+}
     .story-description {
         font-size: var(--fs-14_6);
         margin: var(--space2_4) auto 0;
@@ -66,15 +63,10 @@
     }
 }
 
-@media only screen and (min-device-width: 767px) and (max-device-width: 1025px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .story-details {
         position: initial;
         margin-left: 0;
 
-        .story-title {
-            width: 100%;
-
-        }
     }
-
 }

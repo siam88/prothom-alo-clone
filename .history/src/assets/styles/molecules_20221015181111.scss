@@ -12,7 +12,7 @@
 
     .story-title {
         width: 991px;
-
+        
     }
 
     .story-description {
@@ -70,11 +70,11 @@
     .story-details {
         position: initial;
         margin-left: 0;
-
         .story-title {
             width: 100%;
-
+            overflow-wrap: break-word;
+            word-break: break-word;
         }
     }
-
+   
 }

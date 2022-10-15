@@ -7,14 +7,8 @@
 
 .story-details {
     position: absolute;
-    margin-left: 10%;
+   margin-left: 10%;
     justify-content: center;
-
-    .story-title {
-        width: 991px;
-
-    }
-
     .story-description {
         font-size: var(--fs-14_6);
         margin: var(--space2_4) auto 0;
@@ -24,10 +18,10 @@
         max-width: 768px;
     }
 
-
+  
 
     .story-image {
-
+      
         figure {
             display: block;
             margin-block-start: 1em;
@@ -38,7 +32,7 @@
             overflow: hidden;
             object-fit: fill;
             cursor: text;
-
+    
             .picture {
                 position: absolute;
                 top: 0;
@@ -50,31 +44,24 @@
                 object-fit: cover;
             }
         }
-
         // padding-top: 56.25%;
+       
 
-
-
+     
 
     }
 }
 
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    .story-details {
+    .story-details{
         margin-left: 0;
     }
 }
-
-@media only screen and (min-device-width: 767px) and (max-device-width: 1025px) {
-    .story-details {
-        position: initial;
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .story-details{
+        position:initial;
         margin-left: 0;
 
-        .story-title {
-            width: 100%;
-
-        }
     }
-
 }
