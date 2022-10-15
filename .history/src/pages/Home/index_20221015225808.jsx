@@ -27,7 +27,7 @@ const Home = () => {
         </div> */}
       <div className="homeSection1">
         <div class="grid-container">
-          <div className="left"> <Tab content={data}/></div>
+          <div> <Tab content={data}/></div>
           <div>2</div>
           <div>3</div>
         

@@ -1,13 +1,14 @@
 import React from "react";
 import DefaultLayout from "../../layout/default";
 import Tab from "../../components/organisms/home/tab";
-import data from "../../data/sample-data1.json";
+import data from '../../data/sample-data1.json'
 const Home = () => {
   return (
     <DefaultLayout>
-      {/* <div className="homeSection1">
+    
+        {/* <div className="homeSection1">
           <div className="leftbox">
-            <Tab content={data}/>
+            <Tab/>
           </div>
 
           <div className="middlebox">
@@ -25,14 +26,14 @@ const Home = () => {
             are published first.
           </div>
         </div> */}
-      <div className="homeSection1">
-        <div class="grid-container">
-          <div className="left"> <Tab content={data}/></div>
-          <div>2</div>
-          <div>3</div>
-        
-        </div>
-      </div>
+        <div className="homeSection1">
+    <div class="grid-container">
+      {console.log(data)}
+  <div><Tab content={data}/></div>
+  <div>2</div>
+  <div>3</div>  
+  
+</div></div>
     </DefaultLayout>
   );
 };
