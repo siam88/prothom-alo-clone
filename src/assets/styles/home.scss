@@ -3,8 +3,10 @@
     display: grid;
     grid-template-columns: 2fr 6fr auto;
     gap: 10px;
+    border-bottom: 1px solid var(--border-color);
 
     padding: 10px;
+    margin-bottom: 3%;
   }
 
   .grid-container > div {
@@ -15,6 +17,16 @@
 
   .grid-container > div:last-child {
     border: none;
+  }
+  .footerAdd {
+    width: 80%;
+    margin-left: 10%;
+    img {
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+      width: inherit;
+    }
   }
 }
 

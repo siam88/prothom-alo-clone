@@ -9,6 +9,7 @@ const PriorityNews = () => {
         <div className="impImage">
           <div className="add">
             <img
+              className="image"
               src="https://dummyimage.com/480x250/000/fff"
               alt=""
             />
@@ -16,7 +17,7 @@ const PriorityNews = () => {
           <Highlighted content={data.selected} />
         </div>
         <div className="listitems">
-          <Regular />
+          <Regular content={data.selected} />
         </div>
       </div>
     </div>

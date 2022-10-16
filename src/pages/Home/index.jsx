@@ -38,6 +38,12 @@ const Home = () => {
 
         </div>
 
+        <div className="footerAdd">
+          <img
+            src="https://dummyimage.com/991x250/000/fff"
+            alt=""
+          />
+        </div>
 
 
       </div>
