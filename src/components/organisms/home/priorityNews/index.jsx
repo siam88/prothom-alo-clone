@@ -7,11 +7,16 @@ const PriorityNews = () => {
     <div className="homeSection1_2">
       <div class="flex-container">
         <div className="impImage">
-        
-          <Highlighted content={data.selected}/>
+          <div className="add">
+            <img
+              src="https://dummyimage.com/480x250/000/fff"
+              alt=""
+            />
+          </div>
+          <Highlighted content={data.selected} />
         </div>
         <div className="listitems">
-          <Regular/>
+          <Regular />
         </div>
       </div>
     </div>
@@ -19,3 +24,12 @@ const PriorityNews = () => {
 };
 
 export default PriorityNews;
+
+// .add {
+//           img {
+//     min - width: 100 %;
+//     min - height: 100 %;
+//     object - fit: cover;
+//     width: inherit;
+//   }
+// }

@@ -35,7 +35,11 @@ const Home = () => {
           <div className="middle">
             <PriorityNews />
           </div>
+
         </div>
+
+
+
       </div>
     </DefaultLayout>
   );

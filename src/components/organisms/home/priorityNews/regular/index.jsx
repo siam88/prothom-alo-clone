@@ -3,7 +3,13 @@ import React from "react";
 const Regular = () => {
   return (
     <div className="regularAdd">
-
+      <h2 className="highlightedTitle">Add</h2>
+      <div className="add">
+        <img
+          src="https://dummyimage.com/250x250/000/fff"
+          alt=""
+        />
+      </div>
       <ul>
         <li>
           <div className="listItem">
