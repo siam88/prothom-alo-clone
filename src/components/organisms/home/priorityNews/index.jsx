@@ -14,10 +14,11 @@ const PriorityNews = () => {
               alt=""
             />
           </div>
-          <Highlighted content={data.selected} />
+          {console.log("data", data)}
+          <Highlighted content={data.selected} dataType={"selected"} />
         </div>
         <div className="listitems">
-          <Regular content={data.selected} />
+          <Regular content={data.selected} dataType={"selected"} />
         </div>
       </div>
     </div>
